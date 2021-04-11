@@ -245,7 +245,7 @@ h6 {
 .text-welcome__subtitle {
   color: #ffffff;
   font-family: Montserrat;
-  font-size: 150px;
+  font-size: 100px;
   font-weight: 700;
   line-height: 140px;
   text-transform: uppercase;
@@ -269,7 +269,7 @@ h6 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .navigation__row {
@@ -279,6 +279,7 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 auto;
 }
 
 .navigation__column {
@@ -692,6 +693,7 @@ h6 {
 }
 
 .quote {
+  margin-top: 30px;
   background-color: #f8f8f8;
 }
 
@@ -1406,7 +1408,7 @@ h6 {
     color: #ffffff;
     font-family: Montserrat;
     text-transform: uppercase;
-    font-size: px;
+    font-size: 20px;
     font-weight: 400;
   }
 
@@ -1846,18 +1848,22 @@ h6 {
 @media (max-height: 768px) {
   .text-welcome__title {
     margin-top: 78px;
-    font-size: 68px;
-    margin-bottom: 35px;
+    font-size: 48px;
+    margin-bottom: 25px;
   }
 
   .text-welcome__subtitle {
-    font-size: 100px;
+    font-size: 50px;
     line-height: 80px;
     margin-bottom: 30px;
   }
 
   .text-welcome__decor {
     margin-bottom: 20px;
+  }
+
+  .text-welcome__btn {
+    margin-bottom: 15px;
   }
 }
 
@@ -1869,7 +1875,7 @@ h6 {
   }
 
   .text-welcome__subtitle {
-    font-size: 60px;
+    font-size: 45px;
     line-height: 55px;
     margin-bottom: 15px;
   }
@@ -1883,7 +1889,7 @@ h6 {
 
   .text-welcome__subtitle {
     margin-top: 20px;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 45px;
   }
 
