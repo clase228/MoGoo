@@ -505,8 +505,6 @@ h6 {
 
 .slider {
   position: relative;
-  padding-left: 120px;
-  padding-right: 120px;
 }
 
 .slick-arrow {
@@ -1853,7 +1851,7 @@ h6 {
   }
 
   .text-welcome__subtitle {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 80px;
     margin-bottom: 30px;
   }
@@ -1895,6 +1893,13 @@ h6 {
 
   .text-welcome__btn {
     margin-bottom: 15px;
+  }
+}
+
+@media (max-height: 800px) {
+  .text-welcome__subtitle {
+    font-size: 60px;
+    line-height: 100px;
   }
 }
 
